@@ -18,7 +18,7 @@ html {
     height: 20px;
     width: 20%;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 1%;
 }
 
 .segundoSubBloquePrimero {
@@ -60,7 +60,7 @@ html {
 .SubBloqueIzqYDerecha {
     background-color: mediumaquamarine;
     height: 20px;
-    width: 48%;
+    width: 49%;
     margin-bottom: 10px;
     display: inline-block;
 }
@@ -88,7 +88,7 @@ html {
 }
 
 .marginRight {
-    margin-right: 9px;
+    margin-right: 1%;
 }
 
 .displayFlex {
@@ -109,7 +109,6 @@ html {
     }
     .primerSubBloquePrimero {
         height: 25px;
-        margin-right: 14px;
     }
 
     .segundoSubBloquePrimero {
