@@ -73,7 +73,7 @@ html {
 .DerechaBloque {
     background-color: chocolate;
     padding: 10px;
-    width: 30%;
+    width: 31%;
     display: inline-block;
 
 }
@@ -88,7 +88,7 @@ html {
 }
 
 .marginRight {
-    margin-right: 17px;
+    margin-right: 9px;
 }
 
 .displayFlex {
@@ -99,4 +99,104 @@ html {
     background-color: darkkhaki;
     height: 20px;
 
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .ArribaBloquePrimero {
+        padding: 16px;
+    }
+    .primerSubBloquePrimero {
+        height: 25px;
+        margin-right: 14px;
+    }
+
+    .segundoSubBloquePrimero {
+        height: 25px;
+        margin-right: 14px;
+        width: 54%;
+    }
+
+    .tercerSubBloquePrimero {
+        height: 25px;
+    }
+
+    .AbajoBloquePrimero {
+        padding: 16px;
+        
+    }
+    .AbajoSubBloquePrimero {
+        height: 25px;
+    }
+
+    .BloquePrincipal {
+        padding: 16px;
+    }
+
+    .changesMQuery {
+        background-color: chartreuse;
+    }
+
+    .SubBloqueIzqYDerecha {
+        width: 47%;
+    }
+
+    .displayFlex {
+        flex-direction: column;
+    }
+
+    .IzqBloque {
+        background-color: brown;
+        padding: 10px;
+        width: 97%;
+    }
+
+    .marginRight {
+        margin-right: 20px;
+    }
+
+    .SubBloqueIzqYDerecha {
+        background-color: mediumaquamarine;
+        height: 20px;
+        margin-bottom: 10px;
+        display: inline-block;
+        width: 48%;
+    }
+
+    .DerechaBloque {
+        background-color: chocolate;
+        padding: 10px;
+        width: 97%;
+
+    }
+ 
+}
+
+@media only screen and (max-width: 600px) {
+    .BloquePrincipal {
+        padding: 25px;
+    }
+
+    .ArribaBloquePrimero {
+        padding: 25px;
+    }
+
+    .primerSubBloquePrimero {
+        height: 25px;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .segundoSubBloquePrimero {
+        height: 25px;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .tercerSubBloquePrimero {
+        height: 25px;
+        width: 100%;
+        display: inline-block;
+    }
 }
