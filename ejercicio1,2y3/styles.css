@@ -26,7 +26,7 @@ html {
     height: 20px;
     width: 56%;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 1%;
 
 }
 
@@ -41,8 +41,7 @@ html {
 .AbajoBloquePrimero {
     background-color: coral;
     margin-top: 10px;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 .AbajoSubBloquePrimero {
     background-color: yellow;
@@ -50,7 +49,7 @@ html {
 }
 
 .IzqBloque {
-    background-color: brown;
+    background-color: rgb(240, 175, 175);
     padding: 10px;
     width: 65%;
     display: inline-block;
@@ -98,7 +97,6 @@ html {
 .subBloqueLargo {
     background-color: darkkhaki;
     height: 20px;
-
 }
 
 
@@ -152,7 +150,7 @@ html {
     }
 
     .marginRight {
-        margin-right: 20px;
+        margin-right: 16px;
     }
 
     .SubBloqueIzqYDerecha {
@@ -174,28 +172,71 @@ html {
 
 @media only screen and (max-width: 600px) {
     .BloquePrincipal {
-        padding: 25px;
+        padding: 40px;
     }
 
     .ArribaBloquePrimero {
-        padding: 25px;
+        padding: 40px;
     }
 
     .primerSubBloquePrimero {
-        height: 25px;
+        height: 40px;
         width: 100%;
-        display: inline-block;
+        margin-bottom: 10px;
     }
     
     .segundoSubBloquePrimero {
-        height: 25px;
+        height: 40px;
         width: 100%;
-        display: inline-block;
+        margin-bottom: 10px;
     }
     
     .tercerSubBloquePrimero {
-        height: 25px;
+        height: 40px;
         width: 100%;
-        display: inline-block;
+    }
+
+    .AbajoBloquePrimero {
+        margin-top: 40px;
+        padding: 40px;
+    }
+
+    .AbajoSubBloquePrimero {
+        height: 40px;
+    }
+
+    .IzqBloque {
+        background-color: rgb(240, 175, 175);
+        padding: 40px;
+        width: 82%;
+        margin-bottom: 25px;
+    }
+
+    .SubBloqueIzqYDerecha {
+        background-color: rgb(93, 143, 127);
+        height: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subBloqueCentral {
+        background-color: rgb(184, 254, 221);
+        height: 40px;
+    }
+
+    .DerechaBloque {
+        background-color: rgb(111, 72, 44);
+        padding: 40px;    
+        width: 82%;
+    }
+
+    .SubBloqueCentro {
+        background-color: rgb(184, 151, 80);
+        height: 40px;
+    }
+
+    .subBloqueLargo {
+        background-color: darkkhaki;
+        height: 40px;
     }
 }
