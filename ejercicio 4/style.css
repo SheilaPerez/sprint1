@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    align-self: flex-start;
+    margin-right: 110px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li:hover {
+    color: rgba(255, 170, 167, 0.824);
+}
+
+main {
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "articulos something"
+                        "articulos something";
+}
+
+.container {
+    min-width: 1200px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.headerContainer {
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.headerRow {
+    display: flex;
+    align-content: space-between;
+    align-items: flex-end;
+}
+
+.iconMenu {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.logoContainer {
+    display: inline-block;
+    margin: 30px 0 0 30px;
+}
+.logo {
+    width: 70px;
+    display: inline-block;
+}
+
+.opacityBox {
+    background-color:rgba(210, 210, 210, 0.66);
+    width: 70%;
+    height: 31%;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 27px;
+    color: rgba(255, 170, 167, 0.824);
+    font-family: 'Merriweather', serif;
+    font-size: 19px;
+}
+
+.articlesContainer {
+    grid-area: articulos;
+    background-color:rgba(210, 210, 210, 0.66);
+    padding: 10px;
+    margin: 5px 5px 0 0;
+}
+
+.articleContainer {
+    background-color: rgb(255, 241, 241);
+    padding: 10px;
+    width: 48%;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+}
+
+.imgArticle {
+    width: 100%;
+    height: 212px;
+   
+}
+
+.articleTitleBox {
+    background-color: rgb(255, 170, 167);
+    padding-top: 1px;
+    width: 100%;
+}
+
+.articleTitle {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.articleText {
+    column-count: 2;
+    column-gap: 25px;
+}
+
+.somethingContainer {
+    background-color:rgba(210, 210, 210, 0.66);
+    padding: 10px;
+    grid-area: something;
+    margin-top: 5px;
+}
+
+
+
+
