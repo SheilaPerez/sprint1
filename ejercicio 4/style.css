@@ -19,8 +19,7 @@ li:hover {
 
 main {
     display: grid;
-    grid-template-columns:3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns:4fr 1fr;
     grid-template-areas: "articulos something"
                         "articulos something";
 }
@@ -90,7 +89,7 @@ main {
 .articleContainer {
     background-color: rgb(255, 241, 241);
     padding: 10px;
-    width: 48%;
+    width: 49%;
     display: inline-block;
     margin: 0 7px 7px 0;
 }
@@ -110,6 +109,7 @@ main {
 .articleTitle {
     color: white;
     font-family: 'Montserrat', sans-serif;
+    margin-left: 5px;
 }
 
 .articleText {
@@ -124,6 +124,38 @@ main {
     margin-top: 5px;
 }
 
+.somethingText {
+    text-align: center;
+    margin-right: 8px;
+    margin-left: 8px;
+}
 
+.somethingTitle {
+    text-align: center;
+}
+
+.textFooterArticles {
+    text-align: center;
+}
+
+.textFooter {
+    color:rgb(193, 189, 189);
+    padding: 8px 0 8px 0;
+    margin: 0px;
+}
+
+.footerContainer {
+    background-color: rgb(255, 241, 241);
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.marginFooter {
+    background-color:rgba(210, 210, 210, 0.66);
+    width: 10px;
+    height: 33px;
+    display: inline-flex;
+}
 
 
